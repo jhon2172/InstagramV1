@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width:1000px){
+  .AddUsers{
+    position:fixed;
+    background-color: none;
+    display: none;
+    left: 1000px;
+
+  }
+}
+
+@media screen and (max-width:1060px){
+  .AddUsers{
+    position:relative;
+    left: 100px;
+    
+
+  }
+}
+
+@media screen and (max-width:1052px){
+  
+  .Pincard{
+    position:relative;
+    top: 200px;
+    left:400px;
+    background-color:red;
+  }
+}
+
+
+@media screen and (max-width:769px){
+  .AddUsers{
+    position:relative;
+    left: 70px;
+
+  }
+  .Pincard{
+    position:relative;
+    top: 200px;
+    left:400px;
+    background-color:red;
+  }
+
+}
+
+@media screen and (max-width:426px){
+  .SearchHeader{
+    display: none;
+    background-color:red;
+
+  }
+  .Pincard{
+    position:relative;
+    top: 200px;
+    left:290px;
+    
+  }
+  
+}
+
+  
